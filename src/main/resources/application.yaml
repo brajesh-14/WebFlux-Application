@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: WebfluxApp
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/webfluxdb
+
+server:
+  port: 8080
